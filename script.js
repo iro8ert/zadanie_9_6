@@ -1,3 +1,5 @@
+document.getElementById('myButton').addEventListener("click", add);
+
 
 function add() {
 	var a = document.createElement('li');
@@ -8,8 +10,4 @@ function add() {
 }
 
 
-function load() {
-	var myButton = document.getElementById('myButton');
-	myButton.addEventListener('click', add);
-}
 
