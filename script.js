@@ -1,10 +1,12 @@
-document.getElementById('myButton').addEventListener("click", add);
+
+document.addEventListener("click", add);
 
 
 function add() {
-  var a = document.createElement('li');
-  document.getElementById('list').appendChild(a);
-  for (var i = 0; i < document.getElementsByTagName('li').length ; i++) {
-    a.innerHTML = "item" + i;
-  }
+	document.getElementById('myButton');
+  	var a = document.createElement('li');
+  	document.getElementById('list').appendChild(a);
+  	for (var i = 0; i < document.getElementsByTagName('li').length ; i++) {
+    	a.innerHTML = "item" + i;
+  	}
 }
